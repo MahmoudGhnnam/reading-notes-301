@@ -3,7 +3,7 @@
 This repo will be for my notes and the topics I will take from reading files
 
 ## Code 301 - Intermediate Software Development
-| Topic|
+|Topic|
 | -----|
 |[Read: 01 - SMACSS and Responsive Web Design](class-01.md)|
 |[Read: 02 - jQuery, Events, and The DOM](class-02.md)|
