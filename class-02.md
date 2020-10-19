@@ -124,14 +124,12 @@ event fires after the page and all of its resources (images, CSS, and scripts) h
 You should use this when your script relies on assets to have loaded, e.,g.  if it needs to know 
 the dimensions of an image.
 It works in all browsers, and also provides function -level scope  for the variables it contains.
-) |
-| jQuery's .ready() method checks if the browser supports the OOMContentloadedevent, because it 
+) | jQuery's .ready() method checks if the browser supports the OOMContentloadedevent, because it 
 fires as soon as the DOM has loaded (it does not wait for other assets to finish loading) and can 
 make the page appear as if it is loading faster.
 lfDOMContentloadedis supported, jQuery creates an event listener that responds to that event. But 
 the event is only supported in modern browsers. In older browsers, jQuery will wait for the load 
-event to fire. |
-| When you place your script at the end of the page (before the closing``</body>`` tag), the HTML will 
+event to fire. | When you place your script at the end of the page (before the closing``</body>`` tag), the HTML will 
 have loaded into the DOM before the script runs.
 You wi ll, however, stillsee people using the .ready() method because scripts that useit will 
 still work if someone moves the script tag elsewhere in the HTML page. (This is particularly common 
