@@ -31,8 +31,8 @@ LIFO: When we say that the call stack, operates by the data structure principle 
 Temporarily store:
 
  When a function is invoked (called), the function, its parameters, and variables are pushed into the call stack to form a stack frame. This stack frame is a memory location in the stack. The memory is cleared when the function returns as it is pop out of the stack.
- 
-![float](img/class-010/10.png)
+
+![float](img/class-10/10.png)
 
  Manage function invocation (call):
  
